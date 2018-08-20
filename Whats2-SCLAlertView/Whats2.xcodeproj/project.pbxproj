@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E494A2B2127D6B5001E3FBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494A2A2127D6B5001E3FBD /* UIKit.framework */; };
+		7E494A2D2127D6B5001E3FBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494A2C2127D6B5001E3FBD /* Foundation.framework */; };
+		7E494A2F2127D6B5001E3FBD /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494A2E2127D6B5001E3FBD /* CydiaSubstrate.framework */; };
+		7E494A382127D6B5001E3FBD /* Whats2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E494A372127D6B5001E3FBD /* Whats2.mm */; };
+		7E494A43212813FE001E3FBD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494A42212813FE001E3FBD /* AVFoundation.framework */; };
+		7E494A4521281415001E3FBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494A4421281415001E3FBD /* CoreGraphics.framework */; };
+		7E494B09212A7A29001E3FBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494B08212A7A29001E3FBD /* QuartzCore.framework */; };
+		7E494B0B212A7A33001E3FBD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494B0A212A7A33001E3FBD /* Accelerate.framework */; };
+		7E494B0D212A7A3D001E3FBD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E494B0C212A7A3D001E3FBD /* AudioToolbox.framework */; };
+		7E494B20212A7A70001E3FBD /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B0F212A7A6F001E3FBD /* SCLTextView.h */; };
+		7E494B21212A7A70001E3FBD /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B10212A7A6F001E3FBD /* SCLButton.h */; };
+		7E494B22212A7A70001E3FBD /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B11212A7A6F001E3FBD /* SCLTextView.m */; };
+		7E494B23212A7A70001E3FBD /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B12212A7A6F001E3FBD /* UIImage+ImageEffects.h */; };
+		7E494B24212A7A70001E3FBD /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B13212A7A6F001E3FBD /* SCLAlertView.m */; };
+		7E494B25212A7A70001E3FBD /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B14212A7A6F001E3FBD /* SCLButton.m */; };
+		7E494B26212A7A70001E3FBD /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B15212A7A6F001E3FBD /* SCLTimerDisplay.h */; };
+		7E494B27212A7A70001E3FBD /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B16212A7A6F001E3FBD /* SCLAlertViewStyleKit.m */; };
+		7E494B28212A7A70001E3FBD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B17212A7A6F001E3FBD /* UIImage+ImageEffects.m */; };
+		7E494B29212A7A70001E3FBD /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B18212A7A6F001E3FBD /* SCLSwitchView.m */; };
+		7E494B2A212A7A70001E3FBD /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B19212A7A6F001E3FBD /* SCLAlertViewResponder.h */; };
+		7E494B2B212A7A70001E3FBD /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B1A212A7A6F001E3FBD /* SCLAlertView.h */; };
+		7E494B2C212A7A70001E3FBD /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B1B212A7A6F001E3FBD /* SCLMacros.h */; };
+		7E494B2D212A7A70001E3FBD /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B1C212A7A70001E3FBD /* SCLSwitchView.h */; };
+		7E494B2E212A7A70001E3FBD /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B1D212A7A70001E3FBD /* SCLTimerDisplay.m */; };
+		7E494B2F212A7A70001E3FBD /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E494B1E212A7A70001E3FBD /* SCLAlertViewResponder.m */; };
+		7E494B30212A7A70001E3FBD /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E494B1F212A7A70001E3FBD /* SCLAlertViewStyleKit.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E494A272127D6B5001E3FBD /* Whats2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Whats2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E494A2A2127D6B5001E3FBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E494A2C2127D6B5001E3FBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E494A2E2127D6B5001E3FBD /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		7E494A332127D6B5001E3FBD /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		7E494A352127D6B5001E3FBD /* Whats2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whats2-Prefix.pch"; sourceTree = "<group>"; };
+		7E494A362127D6B5001E3FBD /* Whats2.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = Whats2.xm; sourceTree = "<group>"; };
+		7E494A372127D6B5001E3FBD /* Whats2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Whats2.mm; sourceTree = "<group>"; };
+		7E494A3C2127D6B5001E3FBD /* Whats2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Whats2.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Whats2.plist; sourceTree = "<group>"; };
+		7E494A42212813FE001E3FBD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7E494A4421281415001E3FBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E494B08212A7A29001E3FBD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E494B0A212A7A33001E3FBD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7E494B0C212A7A3D001E3FBD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7E494B0F212A7A6F001E3FBD /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTextView.h; sourceTree = "<group>"; };
+		7E494B10212A7A6F001E3FBD /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		7E494B11212A7A6F001E3FBD /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTextView.m; sourceTree = "<group>"; };
+		7E494B12212A7A6F001E3FBD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		7E494B13212A7A6F001E3FBD /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		7E494B14212A7A6F001E3FBD /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		7E494B15212A7A6F001E3FBD /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTimerDisplay.h; sourceTree = "<group>"; };
+		7E494B16212A7A6F001E3FBD /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		7E494B17212A7A6F001E3FBD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		7E494B18212A7A6F001E3FBD /* SCLSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLSwitchView.m; sourceTree = "<group>"; };
+		7E494B19212A7A6F001E3FBD /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		7E494B1A212A7A6F001E3FBD /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		7E494B1B212A7A6F001E3FBD /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		7E494B1C212A7A70001E3FBD /* SCLSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLSwitchView.h; sourceTree = "<group>"; };
+		7E494B1D212A7A70001E3FBD /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
+		7E494B1E212A7A70001E3FBD /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		7E494B1F212A7A70001E3FBD /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		7E494B31212A7AC9001E3FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E494A232127D6B5001E3FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E494B0D212A7A3D001E3FBD /* AudioToolbox.framework in Frameworks */,
+				7E494B0B212A7A33001E3FBD /* Accelerate.framework in Frameworks */,
+				7E494B09212A7A29001E3FBD /* QuartzCore.framework in Frameworks */,
+				7E494A4521281415001E3FBD /* CoreGraphics.framework in Frameworks */,
+				7E494A43212813FE001E3FBD /* AVFoundation.framework in Frameworks */,
+				7E494A2B2127D6B5001E3FBD /* UIKit.framework in Frameworks */,
+				7E494A2D2127D6B5001E3FBD /* Foundation.framework in Frameworks */,
+				7E494A2F2127D6B5001E3FBD /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E494A1C2127D6B4001E3FBD = {
+			isa = PBXGroup;
+			children = (
+				7E494A302127D6B5001E3FBD /* Whats2 */,
+				7E494A292127D6B5001E3FBD /* Frameworks */,
+				7E494A282127D6B5001E3FBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E494A282127D6B5001E3FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E494A272127D6B5001E3FBD /* Whats2.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E494A292127D6B5001E3FBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E494B0C212A7A3D001E3FBD /* AudioToolbox.framework */,
+				7E494B0A212A7A33001E3FBD /* Accelerate.framework */,
+				7E494B08212A7A29001E3FBD /* QuartzCore.framework */,
+				7E494A4421281415001E3FBD /* CoreGraphics.framework */,
+				7E494A42212813FE001E3FBD /* AVFoundation.framework */,
+				7E494A2A2127D6B5001E3FBD /* UIKit.framework */,
+				7E494A2C2127D6B5001E3FBD /* Foundation.framework */,
+				7E494A2E2127D6B5001E3FBD /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E494A302127D6B5001E3FBD /* Whats2 */ = {
+			isa = PBXGroup;
+			children = (
+				7E494B0E212A7A60001E3FBD /* SCLAlertView */,
+				7E494A362127D6B5001E3FBD /* Whats2.xm */,
+				7E494A372127D6B5001E3FBD /* Whats2.mm */,
+				7E494A312127D6B5001E3FBD /* Package */,
+				7E494A342127D6B5001E3FBD /* Supporting Files */,
+			);
+			path = Whats2;
+			sourceTree = "<group>";
+		};
+		7E494A312127D6B5001E3FBD /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				7E494A322127D6B5001E3FBD /* DEBIAN */,
+				7E494A392127D6B5001E3FBD /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		7E494A322127D6B5001E3FBD /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				7E494A332127D6B5001E3FBD /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		7E494A342127D6B5001E3FBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E494A352127D6B5001E3FBD /* Whats2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E494A392127D6B5001E3FBD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7E494A3A2127D6B5001E3FBD /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		7E494A3A2127D6B5001E3FBD /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				7E494A3B2127D6B5001E3FBD /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		7E494A3B2127D6B5001E3FBD /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				7E494A3C2127D6B5001E3FBD /* Whats2.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		7E494B0E212A7A60001E3FBD /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7E494B1A212A7A6F001E3FBD /* SCLAlertView.h */,
+				7E494B13212A7A6F001E3FBD /* SCLAlertView.m */,
+				7E494B31212A7AC9001E3FBD /* Info.plist */,
+				7E494B19212A7A6F001E3FBD /* SCLAlertViewResponder.h */,
+				7E494B1E212A7A70001E3FBD /* SCLAlertViewResponder.m */,
+				7E494B1F212A7A70001E3FBD /* SCLAlertViewStyleKit.h */,
+				7E494B16212A7A6F001E3FBD /* SCLAlertViewStyleKit.m */,
+				7E494B10212A7A6F001E3FBD /* SCLButton.h */,
+				7E494B14212A7A6F001E3FBD /* SCLButton.m */,
+				7E494B1B212A7A6F001E3FBD /* SCLMacros.h */,
+				7E494B1C212A7A70001E3FBD /* SCLSwitchView.h */,
+				7E494B18212A7A6F001E3FBD /* SCLSwitchView.m */,
+				7E494B0F212A7A6F001E3FBD /* SCLTextView.h */,
+				7E494B11212A7A6F001E3FBD /* SCLTextView.m */,
+				7E494B15212A7A6F001E3FBD /* SCLTimerDisplay.h */,
+				7E494B1D212A7A70001E3FBD /* SCLTimerDisplay.m */,
+				7E494B12212A7A6F001E3FBD /* UIImage+ImageEffects.h */,
+				7E494B17212A7A6F001E3FBD /* UIImage+ImageEffects.m */,
+			);
+			name = SCLAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E494A242127D6B5001E3FBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E494B26212A7A70001E3FBD /* SCLTimerDisplay.h in Headers */,
+				7E494B30212A7A70001E3FBD /* SCLAlertViewStyleKit.h in Headers */,
+				7E494B2B212A7A70001E3FBD /* SCLAlertView.h in Headers */,
+				7E494B20212A7A70001E3FBD /* SCLTextView.h in Headers */,
+				7E494B2A212A7A70001E3FBD /* SCLAlertViewResponder.h in Headers */,
+				7E494B2D212A7A70001E3FBD /* SCLSwitchView.h in Headers */,
+				7E494B23212A7A70001E3FBD /* UIImage+ImageEffects.h in Headers */,
+				7E494B2C212A7A70001E3FBD /* SCLMacros.h in Headers */,
+				7E494B21212A7A70001E3FBD /* SCLButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E494A262127D6B5001E3FBD /* Whats2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E494A3F2127D6B5001E3FBD /* Build configuration list for PBXNativeTarget "Whats2" */;
+			buildPhases = (
+				7E494A212127D6B5001E3FBD /* ShellScript */,
+				7E494A222127D6B5001E3FBD /* Sources */,
+				7E494A232127D6B5001E3FBD /* Frameworks */,
+				7E494A242127D6B5001E3FBD /* Headers */,
+				7E494A252127D6B5001E3FBD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whats2;
+			productName = Whats2;
+			productReference = 7E494A272127D6B5001E3FBD /* Whats2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E494A1D2127D6B4001E3FBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					7E494A262127D6B5001E3FBD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 7E494A202127D6B4001E3FBD /* Build configuration list for PBXProject "Whats2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E494A1C2127D6B4001E3FBD;
+			productRefGroup = 7E494A282127D6B5001E3FBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E494A262127D6B5001E3FBD /* Whats2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E494A212127D6B5001E3FBD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		7E494A252127D6B5001E3FBD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E494A222127D6B5001E3FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E494B27212A7A70001E3FBD /* SCLAlertViewStyleKit.m in Sources */,
+				7E494B25212A7A70001E3FBD /* SCLButton.m in Sources */,
+				7E494B28212A7A70001E3FBD /* UIImage+ImageEffects.m in Sources */,
+				7E494B22212A7A70001E3FBD /* SCLTextView.m in Sources */,
+				7E494A382127D6B5001E3FBD /* Whats2.mm in Sources */,
+				7E494B2F212A7A70001E3FBD /* SCLAlertViewResponder.m in Sources */,
+				7E494B2E212A7A70001E3FBD /* SCLTimerDisplay.m in Sources */,
+				7E494B29212A7A70001E3FBD /* SCLSwitchView.m in Sources */,
+				7E494B24212A7A70001E3FBD /* SCLAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E494A3D2127D6B5001E3FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Whats2\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E494A3E2127D6B5001E3FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Whats2\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		7E494A402127D6B5001E3FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whats2/Whats2-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.8.100;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 22;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E494A412127D6B5001E3FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whats2/Whats2-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.8.100;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 22;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E494A202127D6B4001E3FBD /* Build configuration list for PBXProject "Whats2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E494A3D2127D6B5001E3FBD /* Release */,
+				7E494A3E2127D6B5001E3FBD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E494A3F2127D6B5001E3FBD /* Build configuration list for PBXNativeTarget "Whats2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E494A402127D6B5001E3FBD /* Release */,
+				7E494A412127D6B5001E3FBD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E494A1D2127D6B4001E3FBD /* Project object */;
+}
